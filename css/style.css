@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(../img/logo.png);
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-top{
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo{
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-top span{
+    vertical-align: middle;
+}
+
+.header-bottom{
+    padding: 1em 0; /*solo verticale*/
+}
+
+.counter{
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 3rem;
+    text-align: center;
+}
